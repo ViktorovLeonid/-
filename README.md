@@ -25,6 +25,7 @@ IT-отдел обеспечивает функционирование внут
 •	исключать копирование любых файлов или текстовой информации в любых целях без получения санкции руководителя.
 # Практическая №2
 1. Для того, чтобы узнать ip - адрес воспользуемся командами ping, nslookup и tracert в консоли.
+
 ![image](https://user-images.githubusercontent.com/70852092/95662585-a640a900-0b40-11eb-819d-4e3f5a3b90fb.png)
 
 ip – адрес mirea.ru : [193.41.140.35]
@@ -53,7 +54,8 @@ a) ip.src="ip сайта", данная команда осуществляет 
 
 г) udp.port отображает UDP порт получателя или отправителя
 
-![image](https://user-images.githubusercontent.com/70852092/95663094-d8eca080-0b44-11eb-8f01-8f878f0b2a62.png) ![image](https://user-images.githubusercontent.com/70852092/95663099-e144db80-0b44-11eb-8f9f-b934f327561a.png)
+![image](https://user-images.githubusercontent.com/70852092/95663094-d8eca080-0b44-11eb-8f01-8f878f0b2a62.png)
+![image](https://user-images.githubusercontent.com/70852092/95663099-e144db80-0b44-11eb-8f9f-b934f327561a.png)
 
 д) arp.src.hw_mac используется для фильтрации по протоколу ARP, показывает нам MAC адресс получателя
 
@@ -66,5 +68,4 @@ eth.dst - фильтр трафика по MAC - адресу получател
 ![image](https://user-images.githubusercontent.com/70852092/95663104-f1f55180-0b44-11eb-83ac-abf450329f90.png)
 
 eth.src - фильтр трафика по MAC - адресу отправителя
-
 ![image](https://user-images.githubusercontent.com/70852092/95663105-f91c5f80-0b44-11eb-916c-c55c6711f1e7.png)
