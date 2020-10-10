@@ -26,3 +26,46 @@ IT-отдел обеспечивает функционирование внут
 # Практическая №2
 1. Для того, чтобы узнать ip - адрес воспользуемся командами ping, nslookup и tracert в консоли.
 ![image](https://user-images.githubusercontent.com/70852092/95662585-a640a900-0b40-11eb-819d-4e3f5a3b90fb.png)
+
+ip – адрес mirea.ru : [193.41.140.35]
+
+Используя intitle:"forum" inurl:http after:2019, в качестве сайта для работы был взят сайт: loyalty-world.ru 
+
+2. Далее были изучены команды nslookup -query=mx, soa, nx; type=any, с помощью которых я получил данные о сервере, почте администратора, серийном номере, периоде времени, через который вторичный DNS-сервер отправит запрос первичному, чтобы проверить, поменялся ли серийный номер. Интервал для повторного соединения с первичным DNS-сервером.
+У данного домена серверная почта: mail-s19.1gb.ru
+
+![image](https://user-images.githubusercontent.com/70852092/95662616-d0926680-0b40-11eb-94e6-174ee339f74a.png)
+
+3. C помощью приложения Wireshark будем перехватывать и изучать трафик c сайта :
+a) ip.src="ip сайта", данная команда осуществляет перехват трафика с сайта, который отравляет запрос на наш ip
+
+![image](https://user-images.githubusercontent.com/70852092/95663085-beb2c280-0b44-11eb-80e0-66e49974576b.png)
+
+б) ip.dst=="ip", данная же команда осуществляет перехват трафика с нашего устройства к сайту
+
+![image](https://user-images.githubusercontent.com/70852092/95663087-c5d9d080-0b44-11eb-87c1-0a13f7b21629.png)
+
+подключение к сайту происходит через порт 80, а робтает через протокол HTTP и TCP
+
+в) ip.addr='ip' комбинирует команды выше и показывает как трафик с сайта, так и с нашего устройства
+
+![image](https://user-images.githubusercontent.com/70852092/95663089-d1c59280-0b44-11eb-8ed6-4d20fc5ecbce.png)
+
+г) udp.port отображает UDP порт получателя или отправителя
+
+![image](https://user-images.githubusercontent.com/70852092/95663094-d8eca080-0b44-11eb-8f01-8f878f0b2a62.png)
+![image](https://user-images.githubusercontent.com/70852092/95663099-e144db80-0b44-11eb-8f9f-b934f327561a.png)
+
+д) arp.src.hw_mac используется для фильтрации по протоколу ARP, показывает нам MAC адресс получателя
+
+![image](https://user-images.githubusercontent.com/70852092/95663103-ea35ad00-0b44-11eb-91ad-2e9f60c524c2.png)
+
+е) eth.src/dst фильтрует пакету по подуровню MA
+
+eth.dst - фильтр трафика по MAC - адресу получателя
+
+![image](https://user-images.githubusercontent.com/70852092/95663104-f1f55180-0b44-11eb-83ac-abf450329f90.png)
+
+eth.src - фильтр трафика по MAC - адресу отправителя
+
+![image](https://user-images.githubusercontent.com/70852092/95663105-f91c5f80-0b44-11eb-916c-c55c6711f1e7.png)
