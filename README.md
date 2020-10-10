@@ -53,8 +53,7 @@ a) ip.src="ip сайта", данная команда осуществляет 
 
 г) udp.port отображает UDP порт получателя или отправителя
 
-![image](https://user-images.githubusercontent.com/70852092/95663094-d8eca080-0b44-11eb-8f01-8f878f0b2a62.png)
-![image](https://user-images.githubusercontent.com/70852092/95663099-e144db80-0b44-11eb-8f9f-b934f327561a.png)
+![image](https://user-images.githubusercontent.com/70852092/95663094-d8eca080-0b44-11eb-8f01-8f878f0b2a62.png) ![image](https://user-images.githubusercontent.com/70852092/95663099-e144db80-0b44-11eb-8f9f-b934f327561a.png)
 
 д) arp.src.hw_mac используется для фильтрации по протоколу ARP, показывает нам MAC адресс получателя
 
