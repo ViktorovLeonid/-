@@ -116,6 +116,7 @@ Pdf:
 
 ![image](https://user-images.githubusercontent.com/70852092/95773953-247b8780-0cc8-11eb-9c57-94d83a337ef4.png)
 
+
 По метаданным видим:
 
 Автор документа: Padam gulvani
@@ -127,6 +128,7 @@ Pdf:
 Софт для создания: Microsoft Office
 
 Операционная система автора: Windows XP
+
 
 
 Метаданные другого документа:
