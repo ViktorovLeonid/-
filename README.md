@@ -119,23 +119,35 @@ Pdf:
 По метаданным видим:
 
 Автор документа: Padam gulvani
+
 Дата создания файла: 15.03.2012
+
 Количество страниц, слов и пр. : 7; 3395; ...
+
 Софт для создания: Microsoft Office
+
 Операционная система автора: Windows XP
+
 
 Метаданные другого документа:
 
 ![image](https://user-images.githubusercontent.com/70852092/95774025-4b39be00-0cc8-11eb-992f-f969e4ab347a.png)
 
+
 Произведя загрузку всех файлов с FOCA, производится автоматический анализ собранных файлов на наличие владельцев файлов, пользуемых ОС и софтах, устройствах, почтах, паролей и т.д.
 
 ![image](https://user-images.githubusercontent.com/70852092/95774085-6c021380-0cc8-11eb-8c85-280772bbbb78.png)
+
 ![image](https://user-images.githubusercontent.com/70852092/95774140-81773d80-0cc8-11eb-9df6-a19f35bde2dc.png)
+
 ![image](https://user-images.githubusercontent.com/70852092/95774174-918f1d00-0cc8-11eb-987c-38ea4eecba6b.png)
+
 ![image](https://user-images.githubusercontent.com/70852092/95774216-a370c000-0cc8-11eb-8c79-b3703f9269ba.png)
+
 ![image](https://user-images.githubusercontent.com/70852092/95774246-b2f00900-0cc8-11eb-8f89-bf1459d72069.png)
+
 ![image](https://user-images.githubusercontent.com/70852092/95774282-c4391580-0cc8-11eb-862d-00d55a7c383c.png)
+
 
 # Ccleaner:
 
@@ -170,5 +182,6 @@ Pdf:
 ![image](https://user-images.githubusercontent.com/70852092/95774736-a4eeb800-0cc9-11eb-8a23-1bbf53f598d0.png)
 
 В ходе анализа программа нашла то, что можно смело удалить (456 МБ)
+
 
 # RStudio:
