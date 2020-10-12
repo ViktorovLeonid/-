@@ -83,9 +83,10 @@ eth.src - фильтр трафика по MAC - адресу отправите
 
 # Практическая №3
 
-Анализ метаданных:
+# Анализ метаданных:
 
 ![image](https://user-images.githubusercontent.com/70852092/95773529-517b6a80-0cc7-11eb-950a-279125852bbf.png)
+
 ![image](https://user-images.githubusercontent.com/70852092/95773550-59d3a580-0cc7-11eb-8dc1-66cc2676442a.png)
 
 С помощью утилиты ExifViewer узнал следующую информацию: дату создания фото, размеры, модель устройства и софт обработки фото.
@@ -93,23 +94,30 @@ eth.src - фильтр трафика по MAC - адресу отправите
 На телефоне в Галерее в сведениях о фото также можно увидеть дату создания фото, размеры, модель устройства, географические координаты местоположения, диафрагму, фокусное расстояние, режим экспозиции, баланс белого, значение яркости, значение ISO, выдержку, схему сжатия, теги.
 
 
-Sql Server и FOCA:
+# Sql Server и FOCA:
 
 ![image](https://user-images.githubusercontent.com/70852092/95773744-ba62e280-0cc7-11eb-9e33-72d936bbf44b.png)
 
 Для проверки был взял сайт:  CogPrints.org- электронный архив для самостоятельного архивирования документов в любой области психологии, неврологии и лингвистики, а также многих областях информатики, философии, биологии, а также любых других частях математики.
+
 После поиска, для скачивания было доступно 380+ документов, я выбрал несколько случайных для анализа и изучения метаданных.
 
+
 Откроем документ word:
+
 ![image](https://user-images.githubusercontent.com/70852092/95773834-e8482700-0cc7-11eb-88ce-3e77b868217f.png)
 
 Pdf:
+
 ![image](https://user-images.githubusercontent.com/70852092/95773903-0877e600-0cc8-11eb-8d77-7ae67b74cc43.png)
 
+
 Посмотрим метаданные файлов:
+
 ![image](https://user-images.githubusercontent.com/70852092/95773953-247b8780-0cc8-11eb-9c57-94d83a337ef4.png)
 
 По метаданным видим:
+
 Автор документа: Padam gulvani
 Дата создания файла: 15.03.2012
 Количество страниц, слов и пр. : 7; 3395; ...
@@ -117,9 +125,11 @@ Pdf:
 Операционная система автора: Windows XP
 
 Метаданные другого документа:
+
 ![image](https://user-images.githubusercontent.com/70852092/95774025-4b39be00-0cc8-11eb-992f-f969e4ab347a.png)
 
 Произведя загрузку всех файлов с FOCA, производится автоматический анализ собранных файлов на наличие владельцев файлов, пользуемых ОС и софтах, устройствах, почтах, паролей и т.д.
+
 ![image](https://user-images.githubusercontent.com/70852092/95774085-6c021380-0cc8-11eb-8c85-280772bbbb78.png)
 ![image](https://user-images.githubusercontent.com/70852092/95774140-81773d80-0cc8-11eb-9df6-a19f35bde2dc.png)
 ![image](https://user-images.githubusercontent.com/70852092/95774174-918f1d00-0cc8-11eb-987c-38ea4eecba6b.png)
@@ -127,25 +137,38 @@ Pdf:
 ![image](https://user-images.githubusercontent.com/70852092/95774246-b2f00900-0cc8-11eb-8f89-bf1459d72069.png)
 ![image](https://user-images.githubusercontent.com/70852092/95774282-c4391580-0cc8-11eb-862d-00d55a7c383c.png)
 
-Ccleaner:
+# Ccleaner:
 
 Создадим дубликат файлов, чтобы проверить работоспособность поиска дубликатов:
+
 ![image](https://user-images.githubusercontent.com/70852092/95774347-ecc10f80-0cc8-11eb-8a02-04c3eb1ccf96.png)
+
 ![image](https://user-images.githubusercontent.com/70852092/95774407-08c4b100-0cc9-11eb-9460-8dcfaf580bb7.png)
 
+
 Файлы на рабочем столе не находит, если создать папку-тоже нет, я долго пытался как-нибудь это сделать 
+
 ![image](https://user-images.githubusercontent.com/70852092/95774468-26921600-0cc9-11eb-82f2-73b6f2affab9.png)
 
+
 Диск сканирует, находит дубликаты-инструмент работает:
+
 ![image](https://user-images.githubusercontent.com/70852092/95774542-4590a800-0cc9-11eb-9842-8655dd438105.png)
 
+
 Удалим EXIFViewer с помощью Ccleaner (потом скачаю обратно, если понадобится):
+
 ![image](https://user-images.githubusercontent.com/70852092/95774622-6ce77500-0cc9-11eb-8495-91bcbae25146.png)
+
 ![image](https://user-images.githubusercontent.com/70852092/95774673-81c40880-0cc9-11eb-8f6d-fffc16bf7d19.png)
+
 Как правило, удаление любого программного обеспечения проходит успешно.
 
+
 Проведем сканирование системы:
+
 ![image](https://user-images.githubusercontent.com/70852092/95774736-a4eeb800-0cc9-11eb-8a23-1bbf53f598d0.png)
+
 В ходе анализа программа нашла то, что можно смело удалить (456 МБ)
 
-RStudio:
+# RStudio:
