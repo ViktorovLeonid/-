@@ -187,3 +187,59 @@ Pdf:
 
 
 # RStudio:
+
+Запустив сканирование основного диска, я вскоре отменил процедуру, потому что она длилась бы очень долго, поэтому решил просканировать съемный носитель
+
+![image](https://user-images.githubusercontent.com/70852092/95912593-adb7ba80-0dab-11eb-9a99-240d4afa58a9.png)
+
+
+Создадим текстовый файл на флешке и удалим:
+
+![image](https://user-images.githubusercontent.com/70852092/95912362-69c4b580-0dab-11eb-83f7-60621f458936.png)
+
+Проведем повторное сканирование:
+
+![image](https://user-images.githubusercontent.com/70852092/95912422-82cd6680-0dab-11eb-8aed-ea8d26ec5532.png)
+
+После сканирования было показано множество удаленных файлов, я выбрал сортировку по датам:
+
+![image](https://user-images.githubusercontent.com/70852092/95912771-f1122900-0dab-11eb-9f66-e9d445d64a2b.png)
+
+Искомый файл найден:
+
+![image](https://user-images.githubusercontent.com/70852092/95912838-0ab37080-0dac-11eb-95ae-2f07d7e74bf1.png)
+
+Восстанавливаем документ на рабочий стол в созданную папку:
+
+![image](https://user-images.githubusercontent.com/70852092/95912919-26b71200-0dac-11eb-84cc-1d5a9a20e8af.png)
+
+
+Файл был успешно восстановлен.
+
+
+Повторяем процедуру создания и удаления текстовика, далее почистим свободное место Ccleaner'ом:
+
+![image](https://user-images.githubusercontent.com/70852092/95913067-5e25be80-0dac-11eb-9ba5-18d58254bf4d.png)
+
+![image](https://user-images.githubusercontent.com/70852092/95913126-739ae880-0dac-11eb-962c-046a2b27d1d8.png)
+
+![image](https://user-images.githubusercontent.com/70852092/95913183-86152200-0dac-11eb-9f42-678c1e9ba976.png)
+
+![image](https://user-images.githubusercontent.com/70852092/95913236-9a591f00-0dac-11eb-9fe0-0235104d18a6.png)
+
+Возвращаемся к восстановлению...
+
+![image](https://user-images.githubusercontent.com/70852092/95913322-b8bf1a80-0dac-11eb-983a-3b3066ff1da9.png)
+
+![image](https://user-images.githubusercontent.com/70852092/95913385-cb395400-0dac-11eb-9b68-83dc9432a633.png)
+
+![image](https://user-images.githubusercontent.com/70852092/95913458-ed32d680-0dac-11eb-9232-b0ab8461fe76.png)
+
+После восстановления я увидел следующее:
+
+![image](https://user-images.githubusercontent.com/70852092/95913511-063b8780-0dad-11eb-94d4-aa36394b9e5e.png)
+
+![image](https://user-images.githubusercontent.com/70852092/95913577-1eaba200-0dad-11eb-99a6-8334e62a552f.png)
+
+
+Внутри ничего не было, и название тоже изменилось, значит Ccleaner просто сделал битый текстовый документ.
