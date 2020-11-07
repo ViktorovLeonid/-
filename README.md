@@ -438,3 +438,5 @@ Pdf:
 ![image](https://user-images.githubusercontent.com/70852092/98445919-7d093d80-212b-11eb-9271-a78b7ef97fdd.png)
 
 Файл в репозиторий добавлен, пароль: 12345
+
+---
