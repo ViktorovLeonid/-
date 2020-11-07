@@ -1,5 +1,6 @@
 # ОИБ-ПРАКТИКА
 ### [Ссылка на Практическую №3](https://github.com/ViktorovLeonid/OIB-PRACTICA#практическая-3)
+### [Ссылка на Практическую №4](https://github.com/ViktorovLeonid/OIB-PRACTICA#практическая-4)
 # Практическая №1
 
 Компания ОАО(Банк) «СбереженияНам». Штат — 38 сотрудников. 4 руководство, 4
@@ -248,3 +249,160 @@ Pdf:
 Внутри ничего не было, и название тоже изменилось, значит Ccleaner просто сделал битый текстовый документ.
 
 ---
+
+# Практическая №4
+
+### Шифрование в windows. EFS
+
+Создадим папку с текстовым документом для эксперимента:
+
+![image](https://user-images.githubusercontent.com/70852092/98444378-627e9680-2122-11eb-8092-b15643b3a1c2.png)
+
+Шифруем папку:
+
+![image](https://user-images.githubusercontent.com/70852092/98444399-804bfb80-2122-11eb-9105-253c196d8d51.png)
+
+Успешно:
+
+![image](https://user-images.githubusercontent.com/70852092/98444418-a2de1480-2122-11eb-8ffc-656ebff6c103.png)
+
+Создадим вторую учетную запись по заданию:
+
+![image](https://user-images.githubusercontent.com/70852092/98444437-b5584e00-2122-11eb-967f-232836bab32d.png)
+
+Заходим под второй учетной записью и пробуем открыть зашифрованную папку:
+
+![image](https://user-images.githubusercontent.com/70852092/98444462-dcaf1b00-2122-11eb-850a-7eb2d7a07f6c.png)
+
+Произвел попытку открытия зашифрованного файла - разумеется, не удалось.
+
+Дальше займемся экспортом сертификата:
+
+![image](https://user-images.githubusercontent.com/70852092/98444475-ee90be00-2122-11eb-8f2d-4cc4f4e409b7.png)
+
+Заходим в реестр:
+
+![image](https://user-images.githubusercontent.com/70852092/98444487-08320580-2123-11eb-9cd5-d1d1d3340576.png)
+
+Экспортируем:
+
+![image](https://user-images.githubusercontent.com/70852092/98444511-28fa5b00-2123-11eb-878a-70d6702c6e34.png)
+
+![image](https://user-images.githubusercontent.com/70852092/98444521-37e10d80-2123-11eb-81e4-f155ad18f68b.png)
+
+![image](https://user-images.githubusercontent.com/70852092/98444534-47605680-2123-11eb-8008-99b6782b5e5a.png)
+
+![image](https://user-images.githubusercontent.com/70852092/98444547-5b0bbd00-2123-11eb-88c2-5ce0b3e2f795.png)
+
+Успешно.
+
+# Cipher
+Создаем новые файлы для теста:
+
+![image](https://user-images.githubusercontent.com/70852092/98444586-8b535b80-2123-11eb-9417-ce3305916b42.png)
+
+Шифруем их с помощью команды cipher /e /s:C:\shifr :
+
+![image](https://user-images.githubusercontent.com/70852092/98444599-a2924900-2123-11eb-9744-31197eda2a50.png)
+
+Проверяем статус шифровки командой cipher /s:E:\shifr :
+
+![image](https://user-images.githubusercontent.com/70852092/98444621-c0f84480-2123-11eb-861e-07fd550ca249.png)
+
+Посмотрим подробные сведения о зашифрованном файле командой cipher /c /s:E:\shifr :
+
+![image](https://user-images.githubusercontent.com/70852092/98444642-dff6d680-2123-11eb-87e3-5b30cf3f32d1.png)
+
+Теперь командой cipher /X создадим резервную копию сертификата EFS:
+
+![image](https://user-images.githubusercontent.com/70852092/98444663-fdc43b80-2123-11eb-99b3-fa7483724e91.png)
+
+Успешно:
+
+![image](https://user-images.githubusercontent.com/70852092/98444690-22b8ae80-2124-11eb-9540-39b68fd506f7.png)
+
+Заходим с другого пользователя и открываем файл, который только что сохранили:
+
+![image](https://user-images.githubusercontent.com/70852092/98444714-3fed7d00-2124-11eb-83b9-763d2d088ef2.png)
+
+Дальше пробуем открыть этот зашифрованный файл:
+
+![image](https://user-images.githubusercontent.com/70852092/98444741-66131d00-2124-11eb-820a-b224afef8faa.png)
+
+Успешно!
+
+# BitLocker
+
+Вставляем флешку и создаем файл для теста:
+
+![image](https://user-images.githubusercontent.com/70852092/98444772-a1ade700-2124-11eb-9750-619d6ae3b744.png)
+
+Включаем БитЛокер (который почему-то для любой флешки на моем ПК с windows 10 PRO никак не запускается, только для диска выдает, форматировал флешку по-разному):
+
+![image](https://user-images.githubusercontent.com/70852092/98444809-da4dc080-2124-11eb-8409-895ef3e3dcb8.png)
+
+![image](https://user-images.githubusercontent.com/70852092/98444814-ed609080-2124-11eb-86e9-87ecf5633961.png)
+
+Мне дали зашифровать на другом ПК:
+
+![image](https://user-images.githubusercontent.com/70852092/98444825-09643200-2125-11eb-9641-cfcce6f70a33.png)
+
+![image](https://user-images.githubusercontent.com/70852092/98444837-20a31f80-2125-11eb-8ea6-dc46d572f26e.png)
+
+![image](https://user-images.githubusercontent.com/70852092/98444847-30baff00-2125-11eb-9100-28ba66088ba9.png)
+
+![image](https://user-images.githubusercontent.com/70852092/98444857-46302900-2125-11eb-91e4-2c23df1527f4.png)
+
+Извлекаем флешку и вставляем ее обратно:
+
+![image](https://user-images.githubusercontent.com/70852092/98445672-e9833d00-2129-11eb-9748-233abebc9eb3.png)
+
+Шифрование флешки прошло успешно.
+
+При открытии требуется ввести пароль:
+
+![image](https://user-images.githubusercontent.com/70852092/98445685-04ee4800-212a-11eb-8c58-55d7b0bb2488.png)
+
+Вводим пароль, надо создать текстовый файл с фамилией и именем по заданию:
+
+![image](https://user-images.githubusercontent.com/70852092/98445698-1df6f900-212a-11eb-8202-c564c2bbd669.png)
+
+Не получилось почему-то открыть флешку:
+
+![image](https://user-images.githubusercontent.com/70852092/98445730-4ed72e00-212a-11eb-8987-15e1d3cf3e68.png)
+
+![image](https://user-images.githubusercontent.com/70852092/98445740-5e567700-212a-11eb-9645-e9cb60a3587c.png)
+
+Отформатировал флешку, пароль удалился и ладно.
+
+# VeraCrypt
+
+Создадим папку с текстовым файлом для теста и зашифруем:
+
+![image](https://user-images.githubusercontent.com/70852092/98445796-aecdd480-212a-11eb-8fa9-2fea24132e30.png)
+
+Используем шифрование AES:
+
+![image](https://user-images.githubusercontent.com/70852092/98445835-df157300-212a-11eb-81f7-f87d050008fa.png)
+
+Выбираем размер и пароль:
+
+![image](https://user-images.githubusercontent.com/70852092/98445849-1126d500-212b-11eb-8c63-fcddf3d01b0c.png)
+
+Ждем окончания процесса и двигаем мышкой:
+
+![image](https://user-images.githubusercontent.com/70852092/98445862-2b60b300-212b-11eb-9060-e8493b128141.png)
+
+Готово:
+
+![image](https://user-images.githubusercontent.com/70852092/98445889-4e8b6280-212b-11eb-8023-c74aef4e3a64.png)
+
+Смонтируем том:
+
+![image](https://user-images.githubusercontent.com/70852092/98445904-6531b980-212b-11eb-91ad-d374046f2e6a.png)
+
+Успешно смонтировали:
+
+![image](https://user-images.githubusercontent.com/70852092/98445919-7d093d80-212b-11eb-9271-a78b7ef97fdd.png)
+
+Файл в репозиторий добавлен, пароль: 12345
