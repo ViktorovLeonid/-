@@ -35,6 +35,8 @@ IT-отдел обеспечивает функционирование внут
 
 •	исключать копирование любых файлов или текстовой информации в любых целях без получения санкции руководителя.
 
+---
+
 # Практическая №2
 1. Для того, чтобы узнать ip - адрес воспользуемся командами ping, nslookup и tracert в консоли.
 
@@ -256,15 +258,28 @@ Pdf:
 
 Создадим папку с текстовым документом для эксперимента:
 
+
+
 ![image](https://user-images.githubusercontent.com/70852092/98444378-627e9680-2122-11eb-8092-b15643b3a1c2.png)
+
+
 
 Шифруем папку:
 
+
+
 ![image](https://user-images.githubusercontent.com/70852092/98444399-804bfb80-2122-11eb-9105-253c196d8d51.png)
+
+
 
 Успешно:
 
+
+
 ![image](https://user-images.githubusercontent.com/70852092/98444418-a2de1480-2122-11eb-8ffc-656ebff6c103.png)
+
+
+
 
 Создадим вторую учетную запись по заданию:
 
@@ -280,9 +295,13 @@ Pdf:
 
 ![image](https://user-images.githubusercontent.com/70852092/98444475-ee90be00-2122-11eb-8f2d-4cc4f4e409b7.png)
 
+
+
 Заходим в реестр:
 
 ![image](https://user-images.githubusercontent.com/70852092/98444487-08320580-2123-11eb-9cd5-d1d1d3340576.png)
+
+
 
 Экспортируем:
 
@@ -296,7 +315,10 @@ Pdf:
 
 Успешно.
 
+
+
 # Cipher
+
 Создаем новые файлы для теста:
 
 ![image](https://user-images.githubusercontent.com/70852092/98444586-8b535b80-2123-11eb-9417-ce3305916b42.png)
@@ -330,6 +352,8 @@ Pdf:
 ![image](https://user-images.githubusercontent.com/70852092/98444741-66131d00-2124-11eb-820a-b224afef8faa.png)
 
 Успешно!
+
+
 
 # BitLocker
 
@@ -375,11 +399,17 @@ Pdf:
 
 Отформатировал флешку, пароль удалился и ладно.
 
+
+
 # VeraCrypt
 
 Создадим папку с текстовым файлом для теста и зашифруем:
 
+
+
 ![image](https://user-images.githubusercontent.com/70852092/98445796-aecdd480-212a-11eb-8fa9-2fea24132e30.png)
+
+
 
 Используем шифрование AES:
 
@@ -388,6 +418,8 @@ Pdf:
 Выбираем размер и пароль:
 
 ![image](https://user-images.githubusercontent.com/70852092/98445849-1126d500-212b-11eb-8c63-fcddf3d01b0c.png)
+
+![image](https://user-images.githubusercontent.com/70852092/98446329-e38f5b00-212d-11eb-9cc9-6baaae892cb6.png)
 
 Ждем окончания процесса и двигаем мышкой:
 
