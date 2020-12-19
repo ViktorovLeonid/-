@@ -447,7 +447,7 @@ Pdf:
 
 ## 1.7 Определение типа hash
 
-Установим следующую утилиту
+Установим следующую утилиту:
 
 ![image](https://user-images.githubusercontent.com/70852092/102690561-543e9280-4217-11eb-9ebe-3437da890ca4.png)
 
@@ -576,18 +576,17 @@ Pdf:
 Подтверждаем с помощью перехода по ссылке.
 ---
 ![image](https://user-images.githubusercontent.com/70852092/102691415-6de2d880-421d-11eb-9c6f-9508ae8927cb.png)
-
-
-
+---
 ![image](https://user-images.githubusercontent.com/70852092/102691418-789d6d80-421d-11eb-912c-439df14ce3c4.png)
 
 Импортировали обнаруженный ключ:
 ---
 ![image](https://user-images.githubusercontent.com/70852092/102691624-e26a4700-421e-11eb-9893-9e96b0063221.png)
 
-Не тот наверное, после исправил на нужный
+Не тот наверное, после исправил на нужный ключ.
 
-
+Пишем и отправляем:
+---
 ![image](https://user-images.githubusercontent.com/70852092/102691771-fe221d00-421f-11eb-9aa0-9d2f820629ec.png)
 
 После шифрования:
