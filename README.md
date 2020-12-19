@@ -484,7 +484,7 @@ Pdf:
 
 ![image](https://user-images.githubusercontent.com/70852092/102690770-cb285b00-4218-11eb-8d3c-db012951fbdc.png)
 
-Удалим первую строку и проверим:
+###Удалим первую строку и проверим:
 
 ![image](https://user-images.githubusercontent.com/70852092/102690800-088ce880-4219-11eb-8b6c-10a8f7f6d654.png)
 
@@ -494,15 +494,96 @@ Pdf:
 
 Как видим, файл поврежден.
 
-Поменяем название и сравним еще раз:
+###Поменяем название и сравним еще раз:
 
 ![image](https://user-images.githubusercontent.com/70852092/102690958-04ad9600-421a-11eb-8f8c-dc1681944cd6.png)
 
-/
+Значение не поменялось.
 
-![image](https://user-images.githubusercontent.com/70852092/102690886-9bc61e00-4219-11eb-83b5-8931d0e15bef.png)
+###2.1 Шифрование с помощью пароля
 
-![image](https://user-images.githubusercontent.com/70852092/102690901-af718480-4219-11eb-88ac-5d2b23bd7f27.png)
+Создадим и зашифруем файл:
 
-![image](https://user-images.githubusercontent.com/70852092/102690932-c3b58180-4219-11eb-878a-4bdfc889f8e1.png)
+![image](https://user-images.githubusercontent.com/70852092/102691129-4559df00-421b-11eb-9c89-84e954ef2ab7.png)
 
+Расшифровка:
+
+![image](https://user-images.githubusercontent.com/70852092/102691135-5571be80-421b-11eb-8681-9ba2ad26d0fb.png)
+
+###2.1.2 Шифрование с использованием ключей
+
+Создадим файл и ключ к нему:
+
+![image](https://user-images.githubusercontent.com/70852092/102691146-7cc88b80-421b-11eb-9b0a-8bf44cf24a23.png)
+
+![image](https://user-images.githubusercontent.com/70852092/102691154-881bb700-421b-11eb-93be-09ba4e814349.png)
+
+Список доступных ключей:
+
+![image](https://user-images.githubusercontent.com/70852092/102691170-a386c200-421b-11eb-9550-fb42e8a1e6e8.png)
+
+Экспортируем публичный ключ:
+
+![image](https://user-images.githubusercontent.com/70852092/102691201-c3b68100-421b-11eb-817b-ebf13af05b77.png)
+
+Импортируем ключ:
+
+![image](https://user-images.githubusercontent.com/70852092/102691221-e5176d00-421b-11eb-8bf9-246271a5039f.png)
+
+Редактируем ключ:
+
+![image](https://user-images.githubusercontent.com/70852092/102691236-fc565a80-421b-11eb-8ef3-b16c5f29e83a.png)
+
+Устанавливаем уровень доверия (trust):
+
+![image](https://user-images.githubusercontent.com/70852092/102691248-13954800-421c-11eb-9e1d-bddc3749418e.png)
+
+###2.1.3 Подписи и шифрование
+
+Создадим текстовый файл и далее подпись для него:
+
+![image](https://user-images.githubusercontent.com/70852092/102691267-39bae800-421c-11eb-8e55-4bb8e85cd29f.png)
+
+До изменения:
+
+![image](https://user-images.githubusercontent.com/70852092/102691278-50613f00-421c-11eb-9dd1-c71e91769762.png)
+
+Меняем файл:
+
+![image](https://user-images.githubusercontent.com/70852092/102691317-9cac7f00-421c-11eb-9ec8-8c3c5baaefe6.png)
+
+После:
+
+![image](https://user-images.githubusercontent.com/70852092/102691325-a930d780-421c-11eb-8709-4fd05e548322.png)
+
+###Отправка письма
+
+Скачиваем нужные программы.
+
+Добавляем ключ:
+
+![image](https://user-images.githubusercontent.com/70852092/102691369-09c01480-421d-11eb-9129-c587e01cdf2a.png)
+
+Экспортируем ключ:
+
+![image](https://user-images.githubusercontent.com/70852092/102691380-20ff0200-421d-11eb-8677-005eae9f8e24.png)
+
+Переходим на репозиторий открытых ключей и загружаем ключ:
+
+![image](https://user-images.githubusercontent.com/70852092/102691408-560b5480-421d-11eb-913f-9d2ed0239338.png)
+
+Подтверждаем с помощью перехода по ссылке.
+
+![image](https://user-images.githubusercontent.com/70852092/102691415-6de2d880-421d-11eb-9c6f-9508ae8927cb.png)
+
+![image](https://user-images.githubusercontent.com/70852092/102691418-789d6d80-421d-11eb-912c-439df14ce3c4.png)
+
+Импортировали обнаруженный ключ(не тот наверное):
+
+![image](https://user-images.githubusercontent.com/70852092/102691624-e26a4700-421e-11eb-9893-9e96b0063221.png)
+
+![image](https://user-images.githubusercontent.com/70852092/102691771-fe221d00-421f-11eb-9aa0-9d2f820629ec.png)
+
+![image](https://user-images.githubusercontent.com/70852092/102691780-16923780-4220-11eb-9e8e-be199229db0b.png)
+
+---
