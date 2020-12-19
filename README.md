@@ -1,6 +1,7 @@
 # ОИБ-ПРАКТИКА
 ### [Ссылка на Практическую №3](https://github.com/ViktorovLeonid/OIB-PRACTICA#практическая-3)
 ### [Ссылка на Практическую №4](https://github.com/ViktorovLeonid/OIB-PRACTICA#практическая-4)
+### [Ссылка на Практическую №5](https://github.com/ViktorovLeonid/OIB-PRACTICA#практическая-5)
 # Практическая №1
 
 Компания ОАО(Банк) «СбереженияНам». Штат — 38 сотрудников. 4 руководство, 4
@@ -440,3 +441,68 @@ Pdf:
 Файл в репозиторий добавлен, пароль: 12345
 
 ---
+
+# Практическая №5
+
+### 1.7 Определение типа hash
+
+Установим следующую утилиту
+
+![image](https://user-images.githubusercontent.com/70852092/102690561-543e9280-4217-11eb-9ebe-3437da890ca4.png)
+
+В файле /etc/shadow сохраняем пароль пользователя системы:
+
+![image](https://user-images.githubusercontent.com/70852092/102690578-6f110700-4217-11eb-8797-128fe9e9dee4.png)
+
+![image](https://user-images.githubusercontent.com/70852092/102690587-7fc17d00-4217-11eb-8ee9-90b4ec8dfe0e.png)
+
+Скопировали значение hash пользователя и определили тип.
+
+![image](https://user-images.githubusercontent.com/70852092/102690613-9d8ee200-4217-11eb-8257-fa88d52b1877.png)
+
+### 1.8 Создание hash в Linux
+
+Добавляем нового пользователя:
+
+![image](https://user-images.githubusercontent.com/70852092/102690675-1e4dde00-4218-11eb-82a8-eba145529406.png)
+
+Заменяем хэш в новом пользователе и обновляем пароль:
+
+![image](https://user-images.githubusercontent.com/70852092/102690713-581ee480-4218-11eb-9e76-646fca3428ca.png)
+
+![image](https://user-images.githubusercontent.com/70852092/102690724-65d46a00-4218-11eb-87a0-01fcab9a3b59.png)
+
+Рассчитываем хешированный пароль:
+
+![image](https://user-images.githubusercontent.com/70852092/102690736-7dabee00-4218-11eb-99a3-7d309ba932c7.png)
+
+### 1.9 Проверка контрольных сумм
+
+Копируем "group" в домашнюю папку, затем подсчитаем и сохраним контрольную сумму:
+
+![image](https://user-images.githubusercontent.com/70852092/102690757-af24b980-4218-11eb-822d-3dbff6265696.png)
+
+![image](https://user-images.githubusercontent.com/70852092/102690770-cb285b00-4218-11eb-8d3c-db012951fbdc.png)
+
+Удалим первую строку и проверим:
+
+![image](https://user-images.githubusercontent.com/70852092/102690800-088ce880-4219-11eb-8b6c-10a8f7f6d654.png)
+
+![image](https://user-images.githubusercontent.com/70852092/102690846-56a1ec00-4219-11eb-8c1e-9d6ddfe71498.png)
+
+![image](https://user-images.githubusercontent.com/70852092/102690858-628dae00-4219-11eb-82f2-98d5b38dad4b.png)
+
+Как видим, файл поврежден.
+
+Поменяем название и сравним еще раз:
+
+![image](https://user-images.githubusercontent.com/70852092/102690958-04ad9600-421a-11eb-8f8c-dc1681944cd6.png)
+
+/
+
+![image](https://user-images.githubusercontent.com/70852092/102690886-9bc61e00-4219-11eb-83b5-8931d0e15bef.png)
+
+![image](https://user-images.githubusercontent.com/70852092/102690901-af718480-4219-11eb-88ac-5d2b23bd7f27.png)
+
+![image](https://user-images.githubusercontent.com/70852092/102690932-c3b58180-4219-11eb-878a-4bdfc889f8e1.png)
+
