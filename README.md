@@ -577,11 +577,16 @@ Pdf:
 ---
 ![image](https://user-images.githubusercontent.com/70852092/102691415-6de2d880-421d-11eb-9c6f-9508ae8927cb.png)
 
+
+
 ![image](https://user-images.githubusercontent.com/70852092/102691418-789d6d80-421d-11eb-912c-439df14ce3c4.png)
 
-Импортировали обнаруженный ключ(не тот наверное, после исправил на нужный):
+Импортировали обнаруженный ключ:
 ---
 ![image](https://user-images.githubusercontent.com/70852092/102691624-e26a4700-421e-11eb-9893-9e96b0063221.png)
+
+Не тот наверное, после исправил на нужный
+
 
 ![image](https://user-images.githubusercontent.com/70852092/102691771-fe221d00-421f-11eb-9aa0-9d2f820629ec.png)
 
